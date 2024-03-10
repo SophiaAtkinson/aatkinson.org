@@ -1,0 +1,8 @@
+baseURL: https://aatkinson.org
+languageCode: en-us
+title: aatkinson.org parked
+theme: "fallout-basic"
+enableGitInfo: true
+disableKinds:
+  - RSS
+  - sitemap

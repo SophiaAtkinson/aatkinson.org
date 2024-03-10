@@ -1,0 +1,61 @@
+body {
+    background-color: #222; /* Dark Gray */
+    color: #ccc; /* Light Gray */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+    background-image: url('/images/2154273.webp'); /* Add a background image of desolation */
+    background-repeat: no-repeat; /* Repeat the background image */
+}
+.container {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Dark Gray shadow */
+    max-width: 600px;
+    width: 80%;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Verdana', sans-serif;
+    color: #bf9000; /* Dark Yellow */
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+a {
+    color: #80c7ff; /* Light Blue */
+    text-decoration: none;
+}
+a:hover {
+    color: #b3ecff; /* Lighter Blue on Hover */
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    display: inline-block; /* Centering the ul */
+}
+li {
+    margin-bottom: 10px;
+    text-align: left; /* Ensuring list items are aligned left */
+}
+li:before {
+    content: "\2022";  /* Bullet character */
+    color: #80c7ff; /* Light Blue */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
